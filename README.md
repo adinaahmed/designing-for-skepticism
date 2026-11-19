@@ -28,6 +28,7 @@ phase3/
 │   ├── tools/build_single_file.py        builds AI_Advice_Study.html from experiment/
 │   ├── data/                             the 42 participant files collected on 13–14 Nov 2026
 │   ├── analysis/analysis_partB.R         the Part B analysis
+│   ├── analysis/robustness_checks.R      additional checks reported in the paper
 │   ├── results/                          27 tables, 7 figures and summary.txt from the analysis
 │   └── tests/                            automated test scripts (simulated participants; not study data)
 └── report/build_report.js                builds Phase3_Report.docx from the results files
@@ -72,6 +73,8 @@ Rscript partB/analysis/analysis_partB.R partB/data partB/results
 ```
 
 The script applies the Phase 2 exclusion rules (failed a comprehension question twice: 9 participants; trials faster than 300 ms or slower than mean + 3 SD: 43 of 825 trials) and writes 27 tables, 7 figures and `summary.txt`, covering the GLMMs and Holm-corrected contrasts for H1–H3, the mixed ANOVA with non-parametric alternatives, effect sizes, the trust models (H4), moderation (H5), the Part B ablations, reliance–confidence slopes, error analysis, participant profiles, the comparison with Papers 2 and 9 and Too Sure for Our Own Good, and the sensitivity analysis.
+
+**Additional checks.** `Rscript partB/analysis/robustness_checks.R partB/results partB/experiment/stimuli/stimuli.json` reproduces the checks added to the paper: acceptance of wrong advice on the same error images in both groups, the reliance–confidence slope with confidence hidden (V1) and with AI correctness controlled, H4 with each participant's initial accuracy as a covariate, and the trust change after rounds with and without displayed confidence.
 
 **Testing.** Before data collection, the experiment was run end to end by automated simulated participants (`partB/tests/`) in Chromium, on desktop and phone screen sizes, with the Google server replaced by a local mock. This checked condition assignment, balancing, data saving and the analysis script. Test data are not part of `partB/data/` and are not reported.
 
