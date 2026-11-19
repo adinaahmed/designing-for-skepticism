@@ -273,7 +273,8 @@ def fit_temperature(logits_val, y):
     return float(logT.exp())
 
 def softmax_T(logits, T):
-    return F.softmax(torch.as_tensor(logits) / T, 1).numpy()
+    # double precision: in float32 many sharpened confidences round to exactly 1.0, which creates ties in AUROC
+    return F.softmax(torch.as_tensor(logits, dtype=torch.float64) / T, 1).numpy()
 
 def run_seed(seed, augment=True):
     tag = f"seed{seed}" + ("" if augment else "_noaug")

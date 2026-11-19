@@ -18,6 +18,7 @@ phase3/
 ├── partA/
 │   ├── PartA_CIFAR10_Confidence.ipynb    the notebook run on Kaggle
 │   ├── partA_notebook.py                 the same code as a plain Python script
+│   ├── recompute_full_precision.py       recomputes the Part A metrics from the saved logits in double precision
 │   └── results/                          outputs of the Kaggle run (tables, figures, training logs, Part B stimuli)
 ├── partB/
 │   ├── experiment/                       the jsPsych 7.3.4 experiment (source files and stimuli)
@@ -47,6 +48,12 @@ phase3/
 - `partB_stimuli/`: the 50 study pictures, 3 practice pictures and `stimuli.json` / `stimuli.js` (AI answers, calibrated and overconfident confidence, V5 guidance rules).
 
 The saved model probabilities (`probs_seed*.npz`, about 56 MB) are not included because of their size; they are only needed to rerun the notebook without retraining.
+
+**Full-precision recomputation.** The Kaggle run stored probabilities in single precision. After sharpening ($T^*/4$), about 83% of the stored confidences are exactly 1.0, which creates ties that lowered AUROC (0.932) and the correlation with human difficulty (0.310) for the overconfident version. `recompute_full_precision.py` recomputes every metric from the saved logits in double precision and writes `table_main_metrics_fullprecision.csv`, `table_ablations_partA_fullprecision.csv` and `figures/fig6_ablation_overconfidence_fullprecision.png` (full-precision AUROC of the sharpened confidence: 0.951; AUROC of the confidence rounded to whole percent, as shown to participants: 0.751). The original Kaggle files are kept unchanged; the paper reports the full-precision values. The notebook now computes probabilities in double precision.
+
+```
+python partA/recompute_full_precision.py <folder with probs_seed*.npz> partA/results
+```
 
 ## Part B — the behavioural study
 
@@ -99,3 +106,4 @@ These details were not fixed in the Phase 2 document, or changed during implemen
 | 19 | **Easier questions.** The Berlin Numeracy Test was removed (H5 is tested with metacognition only); confidence is one tap on 4 buttons (Just guessing / Not sure / Fairly sure / Very sure); estimated AI accuracy is a slider; display preference is one choice instead of a ranking. | Pilot participants found the questions too demanding. The same measures are kept in a simpler form. |
 | 20 | **Harder picture mix.** Each round shows 1 easy + 3 hard AI-correct pictures (instead of 2 + 2) and 1 AI error. | In the pilot almost every picture was easy without the AI, leaving little room for advice to matter (a ceiling effect). |
 | 21 | **Sample.** Data were collected until 42 students had finished (33 after exclusions: 17 calibrated, 16 overconfident). | The Phase 3 deadline. Part B is reported with effect sizes, confidence intervals and a sensitivity analysis (80% power only for large effects). |
+| 22 | **Full-precision metrics.** Part A metrics are computed from the logits in double precision (see Part A above). | Single-precision storage made most sharpened confidences exactly 1.0 and distorted AUROC and the human-difficulty correlation for A3. |
