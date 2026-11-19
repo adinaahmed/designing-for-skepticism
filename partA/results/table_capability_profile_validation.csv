@@ -1,0 +1,58 @@
+rule,guidance_text,val_error_rate,val_share,ratio_to_overall
+class:cat,When the AI answers “cat”,0.08196721311475409,0.0976,2.396702137858307
+class:dog,When the AI answers “dog”,0.06595744680851064,0.094,1.9285803160383226
+pair:cat|dog,Telling a cat from a dog,0.04488517745302714,0.1916,1.3124320892697994
+cond:dark,Dark images,0.0424,0.25,1.239766081871345
+cond:blurry,Blurry or low-detail images,0.04,0.25,1.1695906432748537
+class:horse,When the AI answers “horse”,0.031982942430703626,0.0938,0.9351737552837317
+class:deer,When the AI answers “deer”,0.030947775628626693,0.1034,0.9049057201352834
+class:bird,When the AI answers “bird”,0.03018867924528302,0.106,0.8827099194527198
+class:frog,When the AI answers “frog”,0.0275049115913556,0.1018,0.8042371810337895
+class:airplane,When the AI answers “airplane”,0.027196652719665274,0.0956,0.7952237637329027
+class:truck,When the AI answers “truck”,0.026859504132231406,0.0968,0.785365617901503
+class:automobile,When the AI answers “automobile”,0.014705882352941176,0.1088,0.42999656002751974
+pair:automobile|truck,Telling a automobile from a truck,0.011673151750972763,0.2056,0.3413202266366305
+pair:deer|horse,Telling a deer from a horse,0.011156186612576065,0.1972,0.3262042869174288
+pair:bird|cat,Telling a bird from a cat,0.010805500982318271,0.2036,0.31595032112041727
+class:ship,When the AI answers “ship”,0.009784735812133072,0.1022,0.28610338631968046
+pair:deer|dog,Telling a deer from a dog,0.008105369807497468,0.1974,0.23699911717828853
+pair:airplane|ship,Telling a airplane from a ship,0.008088978766430738,0.1978,0.236519846971659
+pair:dog|horse,Telling a dog from a horse,0.007454739084132056,0.1878,0.21797482702140514
+pair:cat|frog,Telling a cat from a frog,0.007021063189568706,0.1994,0.20529424530902649
+pair:deer|frog,Telling a deer from a frog,0.00682261208576998,0.2052,0.19949158145526258
+pair:airplane|bird,Telling a airplane from a bird,0.005952380952380952,0.2016,0.17404622667780562
+pair:cat|horse,Telling a cat from a horse,0.00522466039707419,0.1914,0.15276784786766637
+pair:bird|horse,Telling a bird from a horse,0.005005005005005005,0.1998,0.14634517558494167
+pair:cat|deer,Telling a cat from a deer,0.004975124378109453,0.201,0.14547147304413605
+pair:airplane|truck,Telling a airplane from a truck,0.004158004158004158,0.1924,0.12157906894749
+pair:bird|frog,Telling a bird from a frog,0.0038498556304138597,0.2078,0.1125688780822766
+pair:bird|deer,Telling a bird from a deer,0.0038204393505253103,0.2094,0.11170875293933655
+pair:dog|frog,Telling a dog from a frog,0.0030643513789581204,0.1958,0.08960091751339533
+pair:ship|truck,Telling a ship from a truck,0.003015075376884422,0.199,0.08816009873931058
+pair:bird|dog,Telling a bird from a dog,0.003,0.2,0.08771929824561403
+pair:cat|truck,Telling a cat from a truck,0.00205761316872428,0.1944,0.06016412774047602
+pair:airplane|deer,Telling a airplane from a deer,0.0020100502512562816,0.199,0.0587733991595404
+pair:bird|truck,Telling a bird from a truck,0.0019723865877712033,0.2028,0.057672122449450386
+pair:bird|ship,Telling a bird from a ship,0.0019212295869356388,0.2082,0.056176303711568384
+pair:automobile|ship,Telling a automobile from a ship,0.0018957345971563982,0.211,0.05543083617416369
+pair:airplane|horse,Telling a airplane from a horse,0.0010559662090813093,0.1894,0.030876204943897933
+pair:horse|truck,Telling a horse from a truck,0.001049317943336831,0.1906,0.03068181120867927
+pair:dog|truck,Telling a dog from a truck,0.0010482180293501049,0.1908,0.03064964998099722
+pair:cat|ship,Telling a cat from a ship,0.001001001001001001,0.1998,0.02926903511698833
+pair:deer|ship,Telling a deer from a ship,0.0009727626459143969,0.2056,0.028443352219719206
+pair:automobile|horse,Telling a automobile from a horse,0.0,0.2026,0.0
+pair:automobile|frog,Telling a automobile from a frog,0.0,0.2106,0.0
+pair:automobile|dog,Telling a automobile from a dog,0.0,0.2028,0.0
+pair:automobile|deer,Telling a automobile from a deer,0.0,0.2122,0.0
+pair:automobile|cat,Telling a automobile from a cat,0.0,0.2064,0.0
+pair:automobile|bird,Telling a automobile from a bird,0.0,0.2148,0.0
+pair:airplane|dog,Telling a airplane from a dog,0.0,0.1896,0.0
+pair:airplane|frog,Telling a airplane from a frog,0.0,0.1974,0.0
+pair:airplane|automobile,Telling a airplane from a automobile,0.0,0.2044,0.0
+pair:airplane|cat,Telling a airplane from a cat,0.0,0.1932,0.0
+pair:dog|ship,Telling a dog from a ship,0.0,0.1962,0.0
+pair:deer|truck,Telling a deer from a truck,0.0,0.2002,0.0
+pair:horse|ship,Telling a horse from a ship,0.0,0.196,0.0
+pair:frog|truck,Telling a frog from a truck,0.0,0.1986,0.0
+pair:frog|ship,Telling a frog from a ship,0.0,0.204,0.0
+pair:frog|horse,Telling a frog from a horse,0.0,0.1956,0.0

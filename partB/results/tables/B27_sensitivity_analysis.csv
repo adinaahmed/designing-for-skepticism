@@ -1,0 +1,3 @@
+design,n,min_effect_80pct_power,effect_metric
+"within-subjects display contrast (paired, per group)",16,0.7494735367302239,d_z
+between-groups calibration contrast,16,1.0236636727602946,Cohen's d

@@ -1,0 +1,13 @@
+source,measure,condition,value,n,note
+Paper 2 (Exp. 1),"Agreement with incorrect advice, difficult errors",without explanations,0.87,NA,simulated medical detection task; weakness information
+Paper 2 (Exp. 1),"Agreement with incorrect advice, difficult errors",with weakness information,0.61,NA,simulated medical detection task; weakness information
+This study,"Agreement with incorrect advice, hard errors",V1 label only,0.07142857142857142,14,both calibration groups pooled
+This study,"Agreement with incorrect advice, hard errors",V5 visual + capability guidance,0.13333333333333333,15,both calibration groups pooled
+Paper 9,Reliance by stated numerical certainty,66%,0.6449,NA,certainty shown as text; classification tasks
+Paper 9,Reliance by stated numerical certainty,83%,0.6761,NA,certainty shown as text; classification tasks
+Paper 9,Reliance by stated numerical certainty,100%,0.8265,NA,certainty shown as text; classification tasks
+This study,Reliance by displayed numeric confidence (V2),~66% (<74.5%),0.2857142857142857,7,both calibration groups pooled
+This study,Reliance by displayed numeric confidence (V2),~83% (74.5-91.4%),1,2,both calibration groups pooled
+This study,Reliance by displayed numeric confidence (V2),~100% (>=91.5%),0.8435374149659864,147,both calibration groups pooled
+This study,Acceptance of confidently wrong advice (V2-V5),calibrated,0.16216216216216217,17,compare direction with Too Sure for Our Own Good (Phase 1): high confidence -> more acceptance
+This study,Acceptance of confidently wrong advice (V2-V5),overconfident,0.22580645161290322,16,compare direction with Too Sure for Our Own Good (Phase 1): high confidence -> more acceptance

@@ -1,0 +1,61 @@
+model,term,chisq,df,p
+follow_AI,(Intercept),7.299658202532112,1,0.006896772915530349
+follow_AI,display,1.3079148553397577,4,0.8600312351827324
+follow_AI,calibration,0.823321277116898,1,0.36421088864740636
+follow_AI,ai_correct,0.08335920770435454,1,0.7727956970872117
+follow_AI,difficulty,1.295474805558024,1,0.255041459795246
+follow_AI,block_c,2.1416638678992563,1,0.14334634429332868
+follow_AI,display:calibration,1.0015429787952783,4,0.9095619334007609
+follow_AI,display:ai_correct,0.04636659199650807,4,0.9997353849119222
+follow_AI,calibration:ai_correct,0.053166167665731796,1,0.8176427387546451
+follow_AI,display:difficulty,1.104895693429017,4,0.8934946737112279
+follow_AI,calibration:difficulty,0.057374382837819614,1,0.8106950220450363
+follow_AI,ai_correct:difficulty,0.04484412141752711,1,0.8322909164156533
+follow_AI,display:calibration:ai_correct,0.042989764567437624,4,0.9997722689126781
+follow_AI,display:calibration:difficulty,0.22971819884045028,4,0.9938876859354786
+follow_AI,display:ai_correct:difficulty,0.04936200846920603,4,0.9997003894295508
+follow_AI,calibration:ai_correct:difficulty,0.09934505856549766,1,0.7526170093790436
+follow_AI,display:calibration:ai_correct:difficulty,0.14325859647398337,4,0.997553897321076
+appropriate reliance,(Intercept),6.971050127459243,1,0.008283886842763466
+appropriate reliance,display,1.7973126368809857,4,0.7729739867625258
+appropriate reliance,calibration,1.3630489355408393,1,0.24300977262304524
+appropriate reliance,ai_correct,0.08290277465525218,1,0.7734015321950248
+appropriate reliance,difficulty,1.4087938687124868,1,0.23525672110228918
+appropriate reliance,block_c,0.6206195508457221,1,0.43081715016641636
+appropriate reliance,display:calibration,2.1913054332485165,4,0.7006213796199823
+appropriate reliance,display:ai_correct,0.2880461748557343,4,0.99057270486078
+appropriate reliance,calibration:ai_correct,0.07343053217831505,1,0.7864058870380277
+appropriate reliance,display:difficulty,2.0943675340168104,4,0.718407235369644
+appropriate reliance,calibration:difficulty,0.06667758700022816,1,0.79623709563976
+appropriate reliance,ai_correct:difficulty,0.05096416225637233,1,0.8213939727950704
+appropriate reliance,display:calibration:ai_correct,0.38554707373421276,4,0.9836430140342525
+appropriate reliance,display:calibration:difficulty,0.7657648477880725,4,0.9429779399633473
+appropriate reliance,display:ai_correct:difficulty,0.30420926530689313,4,0.9895408339367876
+appropriate reliance,calibration:ai_correct:difficulty,0.001733612279113658,1,0.966788340236168
+appropriate reliance,display:calibration:ai_correct:difficulty,0.12015607216743548,4,0.9982659934070403
+final accuracy,(Intercept),4.6032974796346124,1,0.03191052339245234
+final accuracy,display,0.976272746085914,4,0.9133722202292566
+final accuracy,calibration,0.5017371106638783,1,0.47873784367937944
+final accuracy,ai_correct,0.12206511515555137,1,0.726805409628331
+final accuracy,difficulty,0.309570271989298,1,0.5779440033785641
+final accuracy,block_c,0.4790826767471921,1,0.4888381204029475
+final accuracy,display:calibration,0.7053670092774599,4,0.9506654138016297
+final accuracy,display:ai_correct,0.21629954286283384,4,0.9945568484568509
+final accuracy,calibration:ai_correct,0.1062379605571236,1,0.7444685012011243
+final accuracy,display:difficulty,0.3148334702973235,4,0.9888366124257352
+final accuracy,calibration:difficulty,0.3259937984848907,1,0.568027661792149
+final accuracy,ai_correct:difficulty,0.07888856561023416,1,0.7788092801570982
+final accuracy,display:calibration:ai_correct,0.22233551709047705,4,0.9942602740341101
+final accuracy,display:calibration:difficulty,2.3603355781622515,4,0.6698068124689478
+final accuracy,display:ai_correct:difficulty,0.22635445546828703,4,0.9940587853782771
+final accuracy,calibration:ai_correct:difficulty,0.07838408038805378,1,0.7794993163086139
+final accuracy,display:calibration:ai_correct:difficulty,0.30637482347296047,4,0.9893989504779525
+error detection (AI-error trials),(Intercept),7.524160907243546,1,0.006087690365377329
+error detection (AI-error trials),display,1.3538906745859542,4,0.8521681175797582
+error detection (AI-error trials),calibration,1.1191814404548603,1,0.29009477926135335
+error detection (AI-error trials),difficulty,1.8979400670640008,1,0.1683090724003218
+error detection (AI-error trials),block_c,2.9030783020699404,1,0.08841056843845393
+error detection (AI-error trials),display:calibration,1.4221608500577798,4,0.8403343534409056
+error detection (AI-error trials),display:difficulty,1.9119023196384173,4,0.751958187778937
+error detection (AI-error trials),calibration:difficulty,3.133104008445041e-6,1,0.9985876990839168
+error detection (AI-error trials),display:calibration:difficulty,0.36373082581421995,4,0.9853371971355986

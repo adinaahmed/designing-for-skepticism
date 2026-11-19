@@ -1,0 +1,34 @@
+pid,calibration,latin_order,display_order,numeracy,trust_baseline,age,gender,programme,ai_use,metacog_auroc2
+123765,overconfident,1,V2-V3-V4-V5-V1,NA,100,18,male,NA,A few times a week,0.5
+129492,calibrated,2,V3-V4-V5-V1-V2,NA,100,21,female,NA,Daily,0.9875
+129584,overconfident,2,V3-V4-V5-V1-V2,NA,100,20,female,NA,Daily,0.5
+259123,overconfident,0,V1-V2-V3-V4-V5,NA,35,21,female,NA,A few times a week,0.5
+289797,calibrated,3,V4-V5-V1-V2-V3,NA,85,18,female,NA,A few times a week,1
+302149,overconfident,4,V5-V1-V2-V3-V4,NA,55,21,female,NA,Daily,0.625
+302817,overconfident,2,V3-V4-V5-V1-V2,NA,100,27,male,NA,Daily,0.6785714285714286
+331403,calibrated,2,V3-V4-V5-V1-V2,NA,100,21,female,NA,Daily,NA
+334026,overconfident,2,V3-V4-V5-V1-V2,NA,71,26,female,NA,A few times a week,0.6578947368421053
+440785,overconfident,3,V4-V5-V1-V2-V3,NA,79,19,male,NA,A few times a week,0.5
+488743,overconfident,0,V1-V2-V3-V4-V5,NA,84,19,male,NA,A few times a month,0.9761904761904762
+488823,calibrated,3,V4-V5-V1-V2-V3,NA,64,21,female,NA,A few times a month,0.7521008403361344
+512281,calibrated,4,V5-V1-V2-V3-V4,NA,28,20,female,NA,Daily,NA
+543462,calibrated,4,V5-V1-V2-V3-V4,NA,52,22,male,NA,Daily,0.69375
+564846,calibrated,4,V5-V1-V2-V3-V4,NA,80,20,female,NA,A few times a week,0.675
+600548,calibrated,4,V5-V1-V2-V3-V4,NA,80,20,male,NA,Daily,0.9696969696969697
+605055,calibrated,0,V1-V2-V3-V4-V5,NA,88,19,female,NA,Daily,1
+608108,calibrated,3,V4-V5-V1-V2-V3,NA,80,25,female,NA,A few times a month,0.45652173913043476
+612311,calibrated,2,V3-V4-V5-V1-V2,NA,80,18,female,NA,Daily,0.6071428571428571
+636508,calibrated,1,V2-V3-V4-V5-V1,NA,74,21,female,NA,Daily,0.6644736842105263
+664224,calibrated,0,V1-V2-V3-V4-V5,NA,77,16,male,NA,Less than once a month,0.7142857142857143
+733017,overconfident,0,V1-V2-V3-V4-V5,NA,70,18,male,NA,Daily,0.5588235294117647
+739294,overconfident,1,V2-V3-V4-V5-V1,NA,50,21,female,NA,A few times a month,0.5
+743149,calibrated,0,V1-V2-V3-V4-V5,NA,79,20,female,NA,Daily,0.7023809523809523
+765820,overconfident,3,V4-V5-V1-V2-V3,NA,55,36,female,NA,A few times a month,0.725
+770306,calibrated,0,V1-V2-V3-V4-V5,NA,93,20,female,NA,Daily,NA
+790942,overconfident,4,V5-V1-V2-V3-V4,NA,82,21,male,NA,A few times a week,1
+798012,calibrated,1,V2-V3-V4-V5-V1,NA,94,24,male,NA,Daily,NA
+806070,overconfident,4,V5-V1-V2-V3-V4,NA,81,27,male,NA,Daily,0.41923076923076924
+827660,overconfident,1,V2-V3-V4-V5-V1,NA,75,23,female,NA,A few times a week,NA
+834642,overconfident,1,V2-V3-V4-V5-V1,NA,77,25,female,NA,A few times a week,0.5
+947937,calibrated,1,V2-V3-V4-V5-V1,NA,85,21,female,NA,Daily,0.5
+973080,overconfident,0,V1-V2-V3-V4-V5,NA,82,20,female,NA,Daily,0.5833333333333334

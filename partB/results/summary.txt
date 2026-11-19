@@ -1,0 +1,11 @@
+Part B analysis summary
+Files read: 42; participants: 42
+Participants excluded: 9 (failed a comprehension check twice: 9)
+Trials removed for response time: 43 of 825
+GLMM follow_AI: fitted with random intercepts
+GLMM appropriate reliance: fitted with random intercepts
+GLMM final accuracy: fitted with random intercepts
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.5 LTS

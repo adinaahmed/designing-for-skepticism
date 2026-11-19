@@ -1,0 +1,7 @@
+model,term,chisq,df,p
+appropriate reliance ~ display x metacognition (no numeracy test in the easy version),(Intercept),9.887682507910963,1,0.00166388790842585
+appropriate reliance ~ display x metacognition (no numeracy test in the easy version),display,0.957206220411233,4,0.9162140041714262
+appropriate reliance ~ display x metacognition (no numeracy test in the easy version),metacog_z,0.3559637786206405,1,0.550756439786352
+appropriate reliance ~ display x metacognition (no numeracy test in the easy version),calibration,0.44964341058270507,1,0.5025043416355989
+appropriate reliance ~ display x metacognition (no numeracy test in the easy version),ai_correct,6.123660230969704,1,0.013338433618192631
+appropriate reliance ~ display x metacognition (no numeracy test in the easy version),display:metacog_z,1.5899878013232218,4,0.8105905063900067

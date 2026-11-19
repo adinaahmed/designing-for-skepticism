@@ -1,0 +1,16 @@
+calibration,display,difficulty,rejected_correct_advice
+calibrated,V1,hard,1
+calibrated,V2,hard,2
+calibrated,V3,easy,1
+calibrated,V3,hard,2
+calibrated,V4,easy,1
+calibrated,V4,hard,2
+calibrated,V5,hard,3
+overconfident,V1,easy,2
+overconfident,V1,hard,7
+overconfident,V2,hard,4
+overconfident,V3,easy,1
+overconfident,V3,hard,5
+overconfident,V4,hard,7
+overconfident,V5,easy,1
+overconfident,V5,hard,7

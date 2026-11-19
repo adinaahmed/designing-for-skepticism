@@ -1,0 +1,71 @@
+body { font-family: "Segoe UI", Roboto, Arial, sans-serif; color: #1a1a1a; background: #ffffff; }
+.jspsych-content { max-width: 980px; }
+.text { max-width: 760px; margin: 0 auto; text-align: left; line-height: 1.5; }
+.trial-head { color: #555; font-size: 14px; margin-bottom: 8px; }
+img.stim { width: 256px; height: 256px; image-rendering: auto; border: 1px solid #ccc; border-radius: 4px; }
+.q { font-weight: 600; margin: 14px 0 6px; }
+.classes { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; max-width: 640px; margin: 0 auto; }
+.cls input { display: none; }
+.cls span { display: block; padding: 9px 4px; border: 1px solid #9AA5B1; border-radius: 6px; cursor: pointer; background: #fff; }
+.cls input:checked + span { background: #0072B2; color: #fff; border-color: #0072B2; }
+.slider-row { display: flex; align-items: center; justify-content: center; gap: 12px; }
+.slider-row input.conf { width: 360px; }
+.sl-end { font-size: 12px; color: #555; width: 90px; }
+.sl-val { margin-top: 4px; font-size: 14px; }
+.revise-wrap { display: flex; gap: 28px; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+.your-first { margin-top: 6px; font-size: 14px; }
+.advice { border: 2px solid #0072B2; border-radius: 8px; padding: 12px 16px; text-align: left; max-width: 640px; background: #F7FAFC; }
+.ai-answer { font-size: 20px; }
+.ai-conf { font-size: 18px; margin-top: 6px; }
+.visual { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 10px; }
+.vis-cap { font-size: 13px; color: #333; margin-bottom: 4px; max-width: 300px; }
+.guidance { margin-top: 12px; border-left: 4px solid #E69F00; background: #FFF8EC; padding: 8px 12px; font-size: 14px; }
+.guidance-title { font-weight: 700; }
+.guidance ul { margin: 6px 0 6px 18px; padding: 0; }
+.guidance-note { font-size: 12px; color: #444; }
+.example-note { font-size: 13px; color: #666; margin-top: 12px; }
+.warn { color: #B35900; font-weight: 600; }
+table.fb { border-collapse: collapse; margin: 0 auto; font-size: 14px; }
+table.fb td, table.fb th { border: 1px solid #ccc; padding: 4px 8px; }
+img.thumb { width: 48px; height: 48px; }
+.ok { color: #00703C; font-weight: 600; }
+.bad { color: #B00020; font-weight: 600; }
+.bnt { text-align: left; max-width: 760px; margin: 0 auto 10px; }
+table.rank { margin: 0 auto; text-align: left; }
+table.rank td { padding: 6px 12px; }
+
+/* ---------- Phones and narrow screens ---------- */
+@media (max-width: 620px) {
+  .jspsych-content { max-width: 100%; padding: 0 10px; box-sizing: border-box; }
+  .jspsych-content-wrapper { overflow-x: hidden; }
+  img.stim { width: 200px; height: 200px; }
+  .classes { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+  .cls span { padding: 10px 4px; }
+  .slider-row { gap: 6px; }
+  .slider-row input.conf { width: auto; flex: 1 1 auto; min-width: 0; }
+  .sl-end { width: 56px; font-size: 11px; }
+  .revise-wrap { gap: 12px; }
+  .advice { max-width: 100%; box-sizing: border-box; padding: 10px; }
+  .visual { gap: 12px; }
+  .visual svg { max-width: 100%; height: auto; }
+  .vis-cap { max-width: 100%; }
+  table.fb { font-size: 12px; }
+  table.fb td, table.fb th { padding: 3px 4px; }
+  img.thumb { width: 34px; height: 34px; }
+  .jspsych-survey-likert-statement { font-size: 15px; }
+  .jspsych-survey-likert-opts li { font-size: 12px; }
+}
+
+/* short version: round and total scores */
+.score { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin: 14px 0 18px; }
+.score div { background: #f1f4f9; border-radius: 10px; padding: 10px 18px; min-width: 110px; text-align: center; }
+.score span { display: block; font-size: 13px; color: #555; }
+.score b { font-size: 26px; }
+.score.big b { font-size: 32px; }
+
+/* easy version: four confidence buttons */
+.confs { grid-template-columns: repeat(4, 1fr); max-width: 560px; }
+@media (max-width: 620px) { .confs { grid-template-columns: repeat(2, 1fr); } }
+.jspsych-html-button-response-button button { margin: 4px; }
+.pref .jspsych-html-button-response-button { display: block !important; }
+.pref .jspsych-btn { white-space: normal; }

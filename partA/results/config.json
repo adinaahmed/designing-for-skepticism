@@ -1,0 +1,22 @@
+{
+  "EPOCHS": 30,
+  "LR": 0.01,
+  "MOMENTUM": 0.9,
+  "WEIGHT_DECAY": 0.0005,
+  "BATCH": 128,
+  "IMG": 224,
+  "SEEDS": [
+    0,
+    1,
+    2
+  ],
+  "SPLIT_SEED": 42,
+  "DROPOUT_P": 0.2,
+  "MC_PASSES": 30,
+  "SHARPEN_DIV": 4,
+  "ECE_BINS": 15,
+  "CONF_THRESHOLD": 0.8,
+  "N_BOOT": 1000,
+  "STIM_SEED": 2026,
+  "STIM_PX": 256
+}

@@ -1,0 +1,5 @@
+calibration,guidance_warned,n,accepted
+calibrated,FALSE,8,0.125
+calibrated,TRUE,9,0.3333333333333333
+overconfident,FALSE,10,0.2
+overconfident,TRUE,6,0
